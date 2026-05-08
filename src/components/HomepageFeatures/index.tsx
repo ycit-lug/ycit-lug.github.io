@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '易于使用',
+    title: '包容',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus 从一开始就被设计为易于安装和使用，
-        以便快速启动你的网站。
+        YCIT-LUG 欢迎来自不同专业的同学加入。
       </>
     ),
   },
   {
-    title: '专注于最重要的事',
+    title: '开源',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus 让你专注于你的文档，我们会处理其余的事务。
-        继续前进，将你的文档移到 <code>docs</code> 目录中。
+        我们通过 GitHub 协作，同时倡导开源精神。
       </>
     ),
   },
   {
-    title: '由 React 骅动',
+    title: '技术',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        通过重用 React 扩展或自定义你的网站布局。可以扩展 Docusaurus，
-        同时也不会影响相同的页面陋及页脚。
+        我们勇于尝试不同技术栈，涵盖前端、后端、运维等领域。
       </>
     ),
   },
