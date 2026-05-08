@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: '易于使用',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Docusaurus 从一开始就被设计为易于安装和使用，
+        以便快速启动你的网站。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '专注于最重要的事',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Docusaurus 让你专注于你的文档，我们会处理其余的事务。
+        继续前进，将你的文档移到 <code>docs</code> 目录中。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '由 React 骅动',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        通过重用 React 扩展或自定义你的网站布局。可以扩展 Docusaurus，
+        同时也不会影响相同的页面陋及页脚。
       </>
     ),
   },
