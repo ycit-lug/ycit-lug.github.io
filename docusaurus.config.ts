@@ -69,6 +69,10 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {name: 'keywords', content: 'YCIT, YCIT-LUG, LUG, 盐城工学院, 盐城工学院Linux同好会, 开源, Linux, 盐工LUG'},
+      {name: 'description', content: '盐城工学院 Linux/开源同好会 (YCIT-LUG)'}
+    ],
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
